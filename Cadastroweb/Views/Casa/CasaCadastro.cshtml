@@ -1,0 +1,33 @@
+﻿@model Cadastroweb.Models.CasaModel
+
+@{
+    ViewBag.Title = "Casa";
+}
+
+@using (Html.BeginForm("CasaCadastro", "Casa"))
+
+{
+    <div class="form-group">
+        @Html.LabelFor(obj => obj.atividade)
+        @Html.TextBoxFor(obj => obj.atividade, new { @class = "form-control" })
+
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(obj => obj.descricao)
+        @Html.TextBoxFor(obj => obj.descricao, new { @class = "form-control" })
+
+    </div>
+
+
+
+
+    <div>
+        <input type="submit" value="salvar" class="btn" />
+
+    </div>
+
+
+
+}

@@ -1,0 +1,34 @@
+﻿@model Cadastroweb.Models.PessoalModel
+
+@{
+    ViewBag.Title = "Pessoal";
+}
+
+@using (Html.BeginForm("PessoalCadastro", "Pessoal"))
+
+{
+    <div class="form-group">
+        @Html.LabelFor(obj => obj.atividade)
+        @Html.TextBoxFor(obj => obj.atividade, new { @class = "form-control" })
+
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(obj => obj.descricao)
+        @Html.TextBoxFor(obj => obj.descricao, new { @class = "form-control" })
+
+    </div>
+
+
+
+
+    <div>
+        <input type="submit" value="salvar" class="btn" />
+
+    </div>
+
+
+
+}
+

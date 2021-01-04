@@ -1,0 +1,45 @@
+﻿@model Cadastroweb.Models.TrabalhoModel
+
+@{
+    ViewBag.Title = "Editar trabalho";
+}
+
+
+
+<h2>Editar -  Trabalho</h2>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+
+                    @using (Html.BeginForm("EditarTrabalho", "Trabalho"))
+
+                    {
+                        <div class="row">
+                            <div class="col-lg-4">
+                                @Html.LabelFor(obj => obj.atividade)
+                                @Html.TextBoxFor(obj => obj.atividade, new { @class = "form-control" })
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                @Html.LabelFor(obj => obj.descricao)
+                                @Html.TextBoxFor(obj => obj.descricao, new { @class = "form-control" })
+                            </div>
+                        </div>
+
+
+
+                        <div>
+                            <input type="submit" value="Salvar" class="btn btn-warning" />
+
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

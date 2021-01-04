@@ -1,0 +1,33 @@
+﻿@model Cadastroweb.Models.LoginModel
+
+@{
+    ViewBag.Title = "RegistroLogin";
+}
+
+@using (Html.BeginForm("RegistroLogin", "Login"))
+
+{
+    <div class="form-group">
+        @Html.LabelFor(obj => obj.email)
+        @Html.TextBoxFor(obj => obj.email, new { @class = "form-control" })
+
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(obj => obj.senha)
+        @Html.TextBoxFor(obj => obj.senha, new { @class = "form-control" })
+
+    </div>
+
+
+    
+
+    <div>
+        <input type="submit" value="salvar" class="btn" />
+
+    </div>
+
+
+
+}

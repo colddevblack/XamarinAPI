@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "YYtZpB+24FRG+T50b79lr1bZJj/+2JrMc3b1smyMSv8wRxAr6D5rNPtjLg6SAK58sXhIrRYUw5HUpu0EXjvmow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cold\\Desktop\\Xamarin_app99\\XamarinAPI\\App99mobileAPI\\App99mobileAPI.iOS\\App99mobileAPI.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cold\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0-beta2.20059.3\\microsoft.codeanalysis.analyzers.3.0.0-beta2.20059.3.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\microsoft.codeanalysis.common\\3.5.0\\microsoft.codeanalysis.common.3.5.0.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.5.0\\microsoft.codeanalysis.csharp.3.5.0.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\xam.plugin.connectivity\\3.2.0\\xam.plugin.connectivity.3.2.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\cold\\.nuget\\packages\\xamarin.hotreload\\2.0.15\\xamarin.hotreload.2.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
